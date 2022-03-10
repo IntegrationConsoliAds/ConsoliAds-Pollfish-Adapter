@@ -1,0 +1,6 @@
+framework module ConsoliAdsPollfishAdapter {
+  umbrella header "ConsoliAdsPollfishAdapter.h"
+
+  export *
+  module * { export * }
+}

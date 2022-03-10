@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-Pollfish-Adapter in Pods
+FBSnapshotTestCase in Pods
+Pods-ConsoliAds-Pollfish-Adapter_Example in Pods, depends on:
+ConsoliAds-Pollfish-Adapter in Pods (explicit)
+Pods-ConsoliAds-Pollfish-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-Pollfish-Adapter_Example in Pods (explicit)

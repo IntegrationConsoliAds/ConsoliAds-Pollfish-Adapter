@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,11 +32,11 @@
 		9BF15A4CD6C40FA7BE017608BEACA67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		BA856BD327D9D87B00CDAC2B /* ConsoliAdsPollfishAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA856BD227D9D87B00CDAC2B /* ConsoliAdsPollfishAdapter.framework */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		DDAA4FF3CBFDDB2CC60E7B21D8D68016 /* Pods-ConsoliAds-Pollfish-Adapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFEBB0E6B917268F4703A9F306AAC31 /* Pods-ConsoliAds-Pollfish-Adapter_Tests-dummy.m */; };
+		FC07B85028DC44FF006B9447 /* ConsoliAdsPollfishAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC07B84F28DC44FF006B9447 /* ConsoliAdsPollfishAdapter.xcframework */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -111,7 +111,6 @@
 		AEFEBB0E6B917268F4703A9F306AAC31 /* Pods-ConsoliAds-Pollfish-Adapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConsoliAds-Pollfish-Adapter_Tests-dummy.m"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B93CC888B26D3F04A4E3A8EC0563A417 /* Pods-ConsoliAds-Pollfish-Adapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-Pollfish-Adapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BA856BD227D9D87B00CDAC2B /* ConsoliAdsPollfishAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsPollfishAdapter.framework; path = "ConsoliAds-Pollfish-Adapter/ConsoliAdsPollfishAdapter.framework"; sourceTree = "<group>"; };
 		BA999997521B31FD40DB1B0B1645A06E /* Pods-ConsoliAds-Pollfish-Adapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ConsoliAds-Pollfish-Adapter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C5F26E65485F3264341EE9E43C7FFCD5 /* Pods-ConsoliAds-Pollfish-Adapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ConsoliAds-Pollfish-Adapter_Example-dummy.m"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
@@ -123,6 +122,7 @@
 		F4CF344C32373F5E81BA0462222C7C48 /* Pods-ConsoliAds-Pollfish-Adapter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-Pollfish-Adapter_Tests"; path = Pods_ConsoliAds_Pollfish_Adapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B1DE4C11090E7A37DC08AE46A6343E /* ConsoliAds-Pollfish-Adapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConsoliAds-Pollfish-Adapter-Info.plist"; sourceTree = "<group>"; };
 		F725B90BBC8016DAB8399C0EB1A72BF8 /* Pods-ConsoliAds-Pollfish-Adapter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-Pollfish-Adapter_Example-Info.plist"; sourceTree = "<group>"; };
+		FC07B84F28DC44FF006B9447 /* ConsoliAdsPollfishAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ConsoliAdsPollfishAdapter.xcframework; path = "ConsoliAds-Pollfish-Adapter/ConsoliAdsPollfishAdapter.xcframework"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FFCC146B474267F469D763A00A313778 /* ConsoliAds-Pollfish-Adapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "ConsoliAds-Pollfish-Adapter.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -140,8 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA856BD327D9D87B00CDAC2B /* ConsoliAdsPollfishAdapter.framework in Frameworks */,
 				4A68078B503DE65C19F670CA824590D0 /* Foundation.framework in Frameworks */,
+				FC07B85028DC44FF006B9447 /* ConsoliAdsPollfishAdapter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 		9C8F6A929E484BE4D13D3704CE50BC55 /* ConsoliAds-Pollfish-Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				BA856BD227D9D87B00CDAC2B /* ConsoliAdsPollfishAdapter.framework */,
+				FC07B84F28DC44FF006B9447 /* ConsoliAdsPollfishAdapter.xcframework */,
 				D4E15D2A37A2BC7EDE0E8210DE886496 /* Pod */,
 				81630DEE678AD55A2F43166CC54C7769 /* Support Files */,
 			);
@@ -620,7 +620,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Example/Pods-ConsoliAds-Pollfish-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Example/Pods-ConsoliAds-Pollfish-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -652,7 +656,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -683,7 +691,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Pollfish-Adapter/ConsoliAds-Pollfish-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Pollfish-Adapter/ConsoliAds-Pollfish-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Pollfish_Adapter;
 				PRODUCT_NAME = ConsoliAds_Pollfish_Adapter;
@@ -755,6 +767,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -779,7 +792,11 @@
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-Pollfish-Adapter/ConsoliAds-Pollfish-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/ConsoliAds-Pollfish-Adapter/ConsoliAds-Pollfish-Adapter.modulemap";
 				PRODUCT_MODULE_NAME = ConsoliAds_Pollfish_Adapter;
 				PRODUCT_NAME = ConsoliAds_Pollfish_Adapter;
@@ -810,7 +827,11 @@
 				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
@@ -840,7 +861,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Example/Pods-ConsoliAds-Pollfish-Adapter_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Example/Pods-ConsoliAds-Pollfish-Adapter_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -911,8 +936,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -934,7 +961,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Tests/Pods-ConsoliAds-Pollfish-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Tests/Pods-ConsoliAds-Pollfish-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -966,7 +997,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Tests/Pods-ConsoliAds-Pollfish-Adapter_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ConsoliAds-Pollfish-Adapter_Tests/Pods-ConsoliAds-Pollfish-Adapter_Tests.modulemap";
 				OTHER_LDFLAGS = "";

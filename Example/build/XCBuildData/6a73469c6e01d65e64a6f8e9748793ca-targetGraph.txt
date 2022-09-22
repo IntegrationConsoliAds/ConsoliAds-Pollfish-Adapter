@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ConsoliAds-Pollfish-Adapter in Pods, no dependencies
+Pods-ConsoliAds-Pollfish-Adapter_Example in Pods, depends on:
+ConsoliAds-Pollfish-Adapter in Pods (explicit)

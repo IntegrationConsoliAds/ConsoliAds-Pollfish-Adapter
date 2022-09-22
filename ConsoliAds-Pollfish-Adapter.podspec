@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-Pollfish-Adapter'
-  s.version          = '6.2.3-1.0'
+  s.version          = '6.2.7-v14.1.0'
   s.summary          = 'This pod is used to get CAPollFish adapter for pollfishAd serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
